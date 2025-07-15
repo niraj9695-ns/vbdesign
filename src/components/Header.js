@@ -18,7 +18,7 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header-content">
-          <Link to="/" className="logo">
+          <Link to="/vbdesign" className="logo">
             <div className="logo-icon">
               <div className="logo-symbol">⬡</div>
             </div>
@@ -30,7 +30,7 @@ const Header = () => {
 
           <nav className={`nav ${isMenuOpen ? "nav-open" : ""}`}>
             <Link
-              to="/"
+              to="/vbdesign"
               className={`nav-link ${isActive("/") ? "active" : ""}`}
               onClick={() => setIsMenuOpen(false)}
             >
